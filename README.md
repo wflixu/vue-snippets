@@ -1,6 +1,4 @@
-# Vue VSCode Snippets
-
-![vue-snippet-hero](https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/vue-snippet-hero.gif)
+# Vue Snippets
 
 ## Description
 
@@ -10,7 +8,6 @@ This repo was built particularly for real world use. It doesn't catalogue the AP
 
 _Versions Supported: Vue 2 and Vue 3_
 
-![SnippetDemo](https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/SnippetDemo.gif)
 
 ## Installation
 
@@ -20,7 +17,6 @@ _Either_
 
 _or_
 
-- go here [vscode Extensions Marketplace](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets)
 
 ```javascript
 ext install Vue VSCode Snippets
@@ -34,11 +30,10 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 | Snippet            | Purpose                                                      |
 | ------------------ | ------------------------------------------------------------ |
-| `vbase`            | Single file component base with SCSS                         |
+| `vbase`            | Single file component base with CSS                          |
 | `vbase-3`          | Single File component Composition API with SCSS              |
 | `vbase-3-setup`    | Single File component setup Composition API with SCSS        |
-| `vbase-3-reactive` | Single File component Composition API with Reactive and SCSS |
-| `vbase-css`        | Single file component base with CSS                          |
+| `vbase-3-reactive` | Single File component Composition API with Reactive and      |
 | `vbase-pcss`       | Single file component base with PostCSS                      |
 | `vbase-styl`       | Single file component base with Stylus                       |
 | `vbase-ts`         | Single file component base with Typescript                   |
@@ -188,6 +183,6 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 ## Contributing
 
-This is an open source project open to anyone. Contributions are welcome [github](https://github.com/sdras/vue-vscode-snippets)
+This is an open source project open to anyone. Contributions are welcome [github](https://github.com/wflixu/vue-vscode-snippets)
 
 If you are contributing a snippet, please be sure to add the documentation for it in the tables in the README, the pull request cannot be accepted without this addition. Thanks!

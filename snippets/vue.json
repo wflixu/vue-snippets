@@ -8,17 +8,17 @@
       "\t</div>",
       "</template>",
       "",
-      "<script>",
-      "\texport default {",
-      "\t\t${0}",
-      "\t}",
+      "<script setup>",
+      "import { ref, computed } from 'vue'",
+      "${0}",
+      "",
       "</script>",
       "",
-      "<style lang=\"scss\" scoped>",
+      "<style scoped>",
       "",
       "</style>"
     ],
-    "description": "Base for Vue File with SCSS"
+    "description": "Base for Vue File"
   },
   "Vue Single File Component with SASS": {
     "prefix": "vbase-sass",
@@ -82,27 +82,6 @@
       "</style>"
     ],
     "description": "Base for Vue File with PostCSS"
-  },
-  "Vue Single File Component with Css": {
-    "prefix": "vbase-css",
-    "body": [
-      "<template>",
-      "\t<div>",
-      "",
-      "\t</div>",
-      "</template>",
-      "",
-      "<script>",
-      "\texport default {",
-      "\t\t${0}",
-      "\t}",
-      "</script>",
-      "",
-      "<style scoped>",
-      "",
-      "</style>"
-    ],
-    "description": "Base for Vue File with CSS"
   },
   "Vue Single File Component with Stylus": {
     "prefix": "vbase-styl",
